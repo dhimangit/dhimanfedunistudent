@@ -1,0 +1,106 @@
+/* Global styles */
+body {
+    background-color: #FAFAFA; /* Alabaster color */
+    color: #333; /* Charcoal Grey */
+    font-family: 'Nobile', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.global-header {
+    background-color: #9DBEBB; /* Opal color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.primary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.primary-navigation ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.primary-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.primary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}
+
+.primary-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px 0;
+}
+
+.gallery-section {
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery-grid a {
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid a:hover img {
+    transform: scale(1.1);
+}
+
+
+/* Footer styles */
+.global-footer {
+    background-color: #333; /* Charcoal Grey color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.secondary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.secondary-navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.secondary-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.secondary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}

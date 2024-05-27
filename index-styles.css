@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+    background-color: #FAFAFA; /* Alabaster color */
+    color: #333; /* Charcoal Grey */
+    font-family: 'Nobile', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.global-header {
+    background-color: #9DBEBB; /* Opal color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.primary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.primary-navigation ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.primary-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.primary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}
+
+.primary-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background-color: #4682B4; /* Steel Blue color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #9DBEBB; /* Opal color */
+    color: #fff; /* White text color */
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #7DA7A2; /* Darker shade of Opal color on hover */
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #F5F5F5;
+}
+
+.about-me .text-content {
+    flex: 1;
+}
+
+.about-me .text-content h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-me .image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.about-me .image-content img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+.global-footer {
+    background-color: #333; /* Charcoal Grey color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.secondary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.secondary-navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.secondary-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.secondary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}

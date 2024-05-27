@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    background-color: #FAFAFA; /* Alabaster color */
+    color: #333; /* Charcoal Grey */
+    font-family: 'Nobile', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.global-header {
+    background-color: #9DBEBB; /* Opal color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.primary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.primary-navigation ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.primary-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.primary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}
+
+.primary-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px 0;
+}
+
+.skills-section {
+    text-align: center;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+}
+
+.progress-bar {
+    background-color: #E5E5E5; /* Platinum color */
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #4682B4; /* Steel Blue color */
+    height: 100%;
+}
+
+/* Footer styles */
+.global-footer {
+    background-color: #333; /* Charcoal Grey color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.secondary-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.secondary-navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.secondary-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.secondary-navigation ul li a {
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}
